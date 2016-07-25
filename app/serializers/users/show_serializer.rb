@@ -1,3 +1,3 @@
 class Users::ShowSerializer < UserSerializer
-  attributes :id, :first_name, :last_name, :email, :phone
+  attributes :email, :phone
 end

@@ -5,7 +5,7 @@ class V1::UsersController < ApiV1Controller
 
   def index
     users = User.all
-    render json: users, each_serializer: Users::IndexSerializer
+    render json: users
   end
 
   def new
